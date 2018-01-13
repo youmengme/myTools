@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-
+    123123
   </div>
 </template>
 
@@ -15,5 +15,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  
+
 </style>
