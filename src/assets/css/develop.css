@@ -1,0 +1,82 @@
+﻿/* DaTouWang URL: www.datouwang.com */
+*{padding:0; margin:0;}
+li{list-style:none;}
+#content{width:90%; margin:0 auto;}
+.ind-cour-turn{float: right;margin-top:20px;color: #1BBC9B;cursor: pointer;}
+.ind-cour-turn .text{margin-left:10px;}
+.ind-cour-box > p{margin: 20px 0;color: #bfcdca;font-size: 16px}
+.ind-cour-box .ind-cour-i{position: absolute;overflow: hidden;top:0;right:10px;bottom:10px;left: 0;color:#ffffff;font-family: 'Microsoft YaHei';font-size: 14px;white-space: nowrap;text-align: center;}
+.ind-cour-box .ind-cour-i .mask-bg{width:100%;height: 100%;position: absolute;z-index:0;left:0;top:0;background-color:#000;opacity: 0.5;filter:alpha(opacity=50);}
+.ind-cour-box .ind-cour-i .vh-i{display: inline-block;height: 100%;width: 0;vertical-align: middle;}
+.ind-cour-box .ind-cour-i .cnt-area{position: relative;display: inline-block;margin:0 20px;vertical-align: middle;white-space: normal;text-align: left;}
+.ind-cour-box .ind-cour-i-m{width:100%;height: 100%}
+.ind-cour-box .ind-cour-i-m .text{display: block;margin-top:10px;}
+.ind-cour-box .ind-cour-i-d{width:100%;height: 100%;position: absolute;top:100%;left:0;}
+.ind-cour-box .ind-cour-list{position: relative;height: 380px}
+.ind-cour-box .ind-cour-list > li{position: absolute;}
+.cnt-area .ico{width: 100%;display: block;text-align: center;}
+.cnt-area .ico img{height: 50px;}
+.page-ztb-box{color: #777;}
+.page-ztb-box .container{padding:1px 0;}
+.page-ztb-box h1{font-size: 30px;text-align: center;}
+.page-ztb-box p{margin:15px 0;font-size:16px;}
+.page-ztb-box1 .ztb-desc{text-align: center;white-space: nowrap;margin:30px 0;}
+.page-ztb-box1 .ztb-desc img{vertical-align: middle;}
+
+.page-ztb-box2{background-color:#ffffff}
+.page-ztb-box2 .ztb-btn-box{text-align: center;}
+.page-ztb-box2 .ztb-btn{display:inline-block;border-radius: 5px;padding:10px 20px;cursor: pointer;}
+.page-ztb-box2 .ztb-btn .ico{padding-right: 20px;}
+.page-ztb-box2 .ztb-btn .text{display: inline-block;vertical-align: middle;color: #ffffff;text-align: left;}
+.page-ztb-box2 .ztb-btn .cn{font-size:18px;font-weight: 700}
+.page-ztb-box2 .ztb-btn .en{font-size:14px;display: block;}
+.page-ztb-box2 .ztb-btn01{background-color:#5ecfba;margin-right: 100px}
+.page-ztb-box2 .ztb-btn02{background-color:#ff725f;}
+
+.page-ztb-box3 .ztb-zy-list{margin-top:50px}
+.page-ztb-box3 .ztb-zy-list li{float: left;width: 25%;height:155px;position: relative;}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i{position: absolute;top:0;right:20px;bottom:20px;left: 0;color:#ffffff;font-family: 'Microsoft YaHei';font-size: 14px;white-space: nowrap;text-align: center;cursor: pointer;}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i .vh-i{display: inline-block;height: 100%;width: 0;vertical-align: middle;}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i .cnt-area{position: relative;display: inline-block;margin:0 20px;vertical-align: middle;white-space: normal;text-align: left;}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i-m{width:100%;height: 100%}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i-m .text{display: block;margin-top:10px;}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i-d{width:100%;height: 100%;position: absolute;top:0;left:0;opacity:0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.page-ztb-box3 .ztb-zy-list .ztb-zy-i:hover .ztb-zy-i-d{
+    z-index:201413159;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    -webkit-transform: scale(1.15, 1.3);
+    -moz-transform: scale(1.15, 1.3);
+    -ms-transform: scale(1.15, 1.3);
+    -o-transform: scale(1.15, 1.3);
+    transform: scale(1.15, 1.3);
+}
+
+@media (max-width: 991px) {
+    .page-ztb-box1 .ztb-desc { display: none;}
+    .page-ztb-box2 .ztb-btn{display:block;margin:20px;}
+    .page-ztb-box3 .ztb-zy-list li{float: none;width: auto;margin:20px;}
+    .page-ztb-box3 .ztb-zy-list .ztb-zy-i{right:0;bottom:0;}
+    .page-ztb-box3 .ztb-zy-list .ztb-zy-i:hover .ztb-zy-i-d{
+        z-index:1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*
+本代码由js代码网网友上传，js代码网收集并编辑整理;
+尊重他人劳动成果;
+转载请保留js代码链接 - www.jsdaima.com
+*/
