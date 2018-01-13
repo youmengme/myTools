@@ -1,11 +1,15 @@
 <template lang="html">
   <div class="">
-    123123
+      <Menu />
   </div>
 </template>
 
 <script>
+import Menu from './menu.vue'
 export default {
+  components: {
+    Menu
+  },
   data(){
     return {
 
